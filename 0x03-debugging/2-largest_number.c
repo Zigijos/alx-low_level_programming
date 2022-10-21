@@ -32,7 +32,7 @@ int largest_number(int a, int b, int c)
 /**
  *  main - prints the largest of 3 integers
  *
- *  Return: largest
+ *  Return: 0
  */
 
 int main(void)
@@ -46,5 +46,5 @@ int main(void)
 	c = 0;
 	largest = largest_number(a, b, c);
 	printf("%d is the largest number\n", largest);
-	return (largest);
+	return (0);
 }
