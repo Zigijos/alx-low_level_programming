@@ -1,11 +1,17 @@
 #include <stdio.h>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5e3722dd59e8199f20c039dd20d6df791b5271c4
 #include "main.h"
 
 /**
  * main - takes a date and prints how many days are left in the year, taking
  * leap years into account
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 5e3722dd59e8199f20c039dd20d6df791b5271c4
  * Return: 0
  */
 
@@ -25,4 +31,7 @@ int main(void)
 	print_remaining_days(month, day, year);
 	return (0);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5e3722dd59e8199f20c039dd20d6df791b5271c4

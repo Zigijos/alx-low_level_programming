@@ -35,5 +35,10 @@ int largest_number(int a, int b, int c);
 
 int convert_day(int month, int day);
 
+<<<<<<< HEAD
 void print_remaining_days(int month, int day, int year);
+=======
+void print_remaining_days(int month, int day, int year);	
+
+>>>>>>> 5e3722dd59e8199f20c039dd20d6df791b5271c4
 #endif /* MAIN_H */
