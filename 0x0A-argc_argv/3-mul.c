@@ -5,7 +5,7 @@
  * main - Prints the number of args
  * @argc: argument count
  * @argv: argument vector
- * Return: Always zero
+ * Return: success zero, failure one
  */
 
 int main(int argc, char *argv[])
@@ -22,5 +22,6 @@ int main(int argc, char *argv[])
 	}
 	else
 		printf("error\n");
+		return(1);
 	return (0);
 }
