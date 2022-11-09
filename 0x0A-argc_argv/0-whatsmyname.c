@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - prints name of program, followed by new name
  * @argc: argument count
