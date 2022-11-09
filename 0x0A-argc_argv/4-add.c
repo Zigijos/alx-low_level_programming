@@ -11,9 +11,6 @@ int main(int argc, char *argv[])
 {
 	int i, n, sum = 0;
 
-
-	printf("argc = %d\n", argc);
-
 	for (i = 1; i < argc; i++)
 	{
 		for (n = 0; argv[i][n]; n++)
