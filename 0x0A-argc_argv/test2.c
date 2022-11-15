@@ -3,10 +3,12 @@
 int main(void)
 {	
 	char name[20];
-	printf("what is your name:");
-	scanf("Name: %s\n", name);
-	printf("Hello, how are you today?\n");
-	printf("%s",name);
+
+	printf("what is your name:\n");
+
+	scanf("%s", name);
+
+	printf("Hello %s, how are you today?\n", name);
 
 	return 0;
 }
