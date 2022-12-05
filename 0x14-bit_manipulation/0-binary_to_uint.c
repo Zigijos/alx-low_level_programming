@@ -30,4 +30,5 @@ unsigned int binary_to_uint(const char *b)
 		mult *= 2;
 	}
 	return (num);
+	_putchar('\n');
 }
