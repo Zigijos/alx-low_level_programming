@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int add(int a, int b)
+{
+	return(a + b);
+}	
+
+int subract(int a, int b)
+{
+	return(a - b);
+}
+
+int multiple(int a, int b)
+{
+	return(a * b);
+}
+
+int divide(int a, int b)
+{
+	return(a / b);
+}
+
+int modul(int a, int b)
+{
+	return(a % b);
+}
