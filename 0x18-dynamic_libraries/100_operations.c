@@ -1,26 +1,61 @@
 #include <stdio.h>
 
+/**
+ * add - addition fxn
+ * @a: variable a
+ * @b: variable b
+ * Return: add
+ */
+
 int add(int a, int b)
 {
-	return(a + b);
-}	
-
-int subract(int a, int b)
-{
-	return(a - b);
+	return (a + b);
 }
 
-int multiple(int a, int b)
+/**
+ * sub - subtraction fxn
+ * @a: variable a
+ * @b: variable b
+ * Return: a - b
+ */
+
+int sub(int a, int b)
 {
-	return(a * b);
+	return (a - b);
 }
 
-int divide(int a, int b)
+/**
+ * mul - multilpication fxn
+ * @a: variable a
+ * @b: variable b
+ * Return: a * b
+ */
+
+int mul(int a, int b)
 {
-	return(a / b);
+	return (a * b);
 }
 
-int modul(int a, int b)
+/**
+ * div - division fxn
+ * @a: variable a
+ * @b: variable b
+ * Return: a / b
+ */
+
+int div(int a, int b)
 {
-	return(a % b);
+	return (a / b);
+}
+
+/**
+ * mod - modulus fxn
+ * @a: variable a
+ * @b: variable b
+ * Return: a % b
+ */
+
+int mod(int a, int b)
+{
+return (a % b);
 }
